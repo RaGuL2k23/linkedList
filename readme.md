@@ -1,6 +1,6 @@
 ***solution to linked list***
 **LinkedList class**, which will represent the full list.
-**Node class** containing a value property and a link to the nextNode, set both as null by default.
+**Node class** containing a value property and a link to the nextNode, set both as null by default.'/n'
 
 **append(value)** adds a new node containing value to the end of the list
 **prepend(value)** adds a new node containing value to the start of the list
