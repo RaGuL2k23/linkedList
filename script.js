@@ -163,15 +163,13 @@ class LinkedList {
     // console.log(prevPtr, ptr);
     this.size--;
   }
-}
-export {LinkedList}
-
-// l = new LinkedList();
-// l.append(1);
-// l.append(2);
-// l.append(3);
-// l.append(4);
-// l.prepend(0);
-// l.at(3);
-// console.log("already create a list name --> l u can create your own with ");
-// console.log("new LinkedList()");
+} 
+l = new LinkedList();
+l.append(1);
+l.append(2);
+l.append(3);
+l.append(4);
+l.prepend(0);
+l.at(3);
+console.log("already create a list name --> l u can create your own with ");
+console.log("new LinkedList()");
