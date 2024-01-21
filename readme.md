@@ -1,4 +1,4 @@
-##solution to linked list
+##solution to linked list_**
 **LinkedList class**, which will represent the full list.
 **Node class** containing a value property and a link to the nextNode, set both as null by default.
 
