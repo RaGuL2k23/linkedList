@@ -76,16 +76,12 @@ class Node {
         alert("list empty append items");
         this.head = null;
       }
-      let ptr = this.head;
-      let k,
-        i = this.size;
-      while (ptr) {
+      let ptr = this.head; 
+      for(let i =0;i<this.size;i++ ){
         if (ptr.value == value) {
-          console.log(`List contains ${value} found at index ${k} `);
+          console.log(`List contains ${value} found at index ${i} `);
           break;
-        } else {
-          k = this.size - i;
-          i--;
+        } else {  
           ptr = ptr.next;
         }
       }
